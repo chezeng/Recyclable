@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recycling"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:padding="16dp"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:id="@+id/btn_plastic"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="horizontal"
+            android:onClick="goToPlastic"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_selector">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Plastic"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <ImageView
+                android:id="@+id/plastic_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/plastic_image" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_organic"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="horizontal"
+            android:onClick="goToOrganic"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_selector">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Organic"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <!-- Add your Organic logo here -->
+            <ImageView
+                android:id="@+id/organic_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/organic_image" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_paper"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="horizontal"
+            android:onClick="goToPaper"
+            android:layout_margin="10dp"
+            android:background="@drawable/button_selector">
+
+            <!-- Add your Paper logo here -->
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:text="Paper"
+                android:textSize="50sp"
+                android:textStyle="bold" />
+
+            <ImageView
+                android:id="@+id/paper_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/paper_image" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/btn_other"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="0.8"
+            android:orientation="horizontal"
+            android:onClick="goToOther"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="60dp"
+            android:layout_marginTop="15dp"
+            android:background="@drawable/button_selector">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:text="Others"
+                android:textSize="50sp"
+                android:textStyle="bold"
+                android:gravity="center"/>
+
+            <!-- Add your Other logo here -->
+            <ImageView
+                android:id="@+id/other_logo"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginRight="30dp"
+                android:src="@drawable/other_image" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

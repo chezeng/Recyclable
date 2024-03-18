@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--<menu xmlns:android="http://schemas.android.com/apk/res/android">-->
+
+<!--</menu>-->
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_location"
+        android:icon="@drawable/ic_location"
+        android:title="@string/title_location" />
+
+    <item
+        android:id="@+id/navigation_recycling"
+        android:icon="@drawable/ic_recycling"
+        android:title="@string/title_recycling" />
+
+    <item
+        android:id="@+id/navigation_survey"
+        android:icon="@drawable/ic_survey"
+        android:title="@string/title_survey" />
+</menu>

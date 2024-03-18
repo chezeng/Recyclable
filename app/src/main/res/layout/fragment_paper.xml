@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/paperTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Paper Information"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/paperImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/paperTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/paper_image" />
+
+    <Button
+        android:id="@+id/paper_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="60dp"
+        android:text="Go back" />
+
+    <TextView
+        android:id="@+id/firstPaperTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/paperImageView"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="7dp"
+        android:text="          1. Separate paper waste from other types of waste, such as plastic or organic waste, to facilitate recycling. Set up designated recycling bins or containers specifically for paper waste at home or in the workplace." />
+
+
+    <TextView
+        android:id="@+id/secondPaperTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstPaperTextView"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="7dp"
+        android:text="          2. Recycle paper products like newspapers, magazines, office paper, cardboard, and packaging materials made of paper.\Remove any non-paper attachments, such as plastic windows or metal clips, before recycling."/>
+
+    <TextView
+        android:id="@+id/thirdPaperTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondPaperTextView"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="7dp"
+        android:text="          3. Consider reducing paper waste by using electronic alternatives whenever possible, such as digital documents, online billing, and email communication."/>
+
+
+</RelativeLayout>
+
+
+
+

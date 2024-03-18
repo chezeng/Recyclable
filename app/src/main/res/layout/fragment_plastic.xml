@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/plasticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Plastic Information"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/plasticImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/plasticTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/plastic_image" />
+
+    <Button
+        android:id="@+id/plastic_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="60dp"
+        android:text="Go back" />
+
+    <TextView
+        android:id="@+id/firstPlasticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/plasticImageView"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="7dp"
+        android:text="        1. Check plastic items for the recycling symbol with a resin code, usually located on the bottom. Common codes include PET (#1), HDPE (#2), PVC (#3), LDPE (#4), PP (#5), PS (#6), and Other (#7)." />
+
+
+    <TextView
+        android:id="@+id/secondPlasticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstPlasticTextView"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="7dp"
+        android:text="          2. Follow local recycling guidelines to determine which plastic types are accepted for recycling. Clean and rinse plastic items before recycling to remove any contaminants." />
+
+    <TextView
+        android:id="@+id/thirdPlasticTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondPlasticTextView"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="7dp"
+        android:text="          3. Separate plastics by type to ensure proper recycling and prevent contamination. Flatten plastic bottles and containers to save space in recycling bins and improve efficiency."/>
+
+</RelativeLayout>
+
+
+
+

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/otherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Others Information"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/otherImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/otherTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/other_image" />
+
+    <Button
+        android:id="@+id/other_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="60dp"
+        android:text="Go back"/>
+
+    <TextView
+        android:id="@+id/firstOtherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/otherImageView"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="7dp"
+        android:text="          1. Separate different types of waste into appropriate categories such as plastic, paper, organic, hazardous, and non-recyclable waste. Follow local waste management guidelines to determine how to dispose of specific types of other waste, such as electronics, batteries, light bulbs, or chemicals."/>
+
+    <TextView
+        android:id="@+id/secondOtherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstOtherTextView"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="7dp"
+        android:text="          2. Research designated drop-off locations or recycling centers that accept other waste items for proper disposal or recycling. Whenever possible, choose products with minimal or eco-friendly packaging to reduce non-recyclable waste."/>
+    <TextView
+        android:id="@+id/thirdOtherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondOtherTextView"
+        android:layout_marginTop="42dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="7dp"
+        android:text="          3. Educate yourself about environmentally-friendly alternatives and practices, such as reusing or repurposing items to minimize waste generation."/>
+</RelativeLayout>
+
+
+
+

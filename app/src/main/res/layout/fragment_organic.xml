@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/organicTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:text="Organic Information"
+        android:textStyle="bold"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/organicImageView"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/organicTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:src="@drawable/organic_image" />
+
+    <Button
+        android:id="@+id/organic_back_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="60dp"
+        android:text="Go back" />
+
+    <TextView
+        android:id="@+id/firstOrganicTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/organicImageView"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="7dp"
+        android:text="          1. Separate organic waste from other types of waste, such as plastic or paper, to facilitate composting or other appropriate disposal methods. Set up a dedicated composting system in your backyard or consider using a compost bin or composting service if available in your area." />
+
+
+    <TextView
+        android:id="@+id/secondOrganicTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/firstOrganicTextView"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="7dp"
+        android:text="          2. Place food scraps, yard trimmings, and other organic materials in the composting system, avoiding items like meat, dairy, and oily foods that may attract pests or slow down the composting process."/>
+
+    <TextView
+        android:id="@+id/thirdOrganicTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/secondOrganicTextView"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/rounded_edittext"
+        android:padding="7dp"
+        android:text="          3. Layer organic waste with dry materials like leaves, wood chips, or shredded paper to maintain a good balance of carbon and nitrogen in the compost pile. Turn or mix the compost regularly to provide oxygen and promote decomposition. Monitor moisture levels to ensure the compost remains damp but not overly wet."/>
+
+</RelativeLayout>
+
+
+
+
